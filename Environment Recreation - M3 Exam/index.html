@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>M3 FINAL EXAM - DE CASTRO</title>
+		<link rel="icon" type="image/webp" href="assets/textures/ERlogo.webp">
+		<style>
+			body { margin: 0; }
+
+			#instructions {
+				position: fixed;
+				top: -160px;
+				left: 20px;
+				background-color: rgba(255, 255, 255, 0.7);
+				padding-left:30px;
+				padding-right:30px;
+				padding-top:10px;
+				padding-bottom:5px;
+				border-radius: 20px;
+				border-color: black;
+				font-family: Arial, sans-serif;
+				opacity:20%;
+				transition: 0.75s;
+        	}
+
+			#instructions:hover{
+				top:20px;
+				opacity:80%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="instructions">
+			<p>Use your mouse to look around.</p>
+			<p>The mouse wheel can be used to zoom in to some extent.</p>
+			<p>Hold SHIFT while moving the mouse to move sidewards.</p>
+			<p style="margin-bottom:20px">Hold CTRL while moving the mouse to move upwards.</p>
+			<h1>INSTRUCTIONS</h1>
+			<p></p>
+		</div>
+        <script type='module' src="assets/scripts/main.js"></script>
+		<audio autoplay loop="true">
+			<source src="assets/audio/bossmusic.m4a" type="audio/mp3">
+		</audio>
+	</body>
+</html>
